@@ -45,3 +45,11 @@ def texto_contratio (texto):
             cont += 1
         print(texto[x], end="")
     print(f"\nQuantidade de letras: {cont}")
+
+def lista_argumento(lista):
+    listanova = []
+    for x in lista:
+        if x not in listanova:
+            listanova.append(x)
+
+    print(listanova)
